@@ -61,11 +61,15 @@ h2{
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
+    text-align: justify;
+    padding-right: 5px;
 }
 #full-stack-exp{
     border-left: 7px solid;
     border-image: linear-gradient(purple, tomato);
     border-image-slice: 1;
+    text-align: justify;
+    padding-right: 5px;
 }
 footer p {
     text-align: center;
