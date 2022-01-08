@@ -80,24 +80,38 @@ ul{
 }
 li{
     list-style: none;
-    padding:0 10px;
+    padding:0 2px;
     margin: 0 20px;
     
 }
-nav li{
+a{
     text-decoration: none;
+    }
+
+ul{
+    padding-left: 40px;
+    
 }
 li:hover{
     background-color: green;
-}
+    }
 td{
     border: 1px solid gray;
-    border-collapse: collapse;
     text-align: center;
 }
 th{
     border: 1px solid gray;
-    border-collapse: collapse;
     text-align: center;
-
+}
+table{
+    border-collapse: collapse;
+}
+.table-body{
+    background-color: honeydew;
+}
+header{
+    background-color: lightpink;
+}
+nav{
+    padding: 10px 0;
 }
