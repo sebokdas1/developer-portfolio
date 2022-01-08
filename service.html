@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admission Form</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="">ABOUT ME</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="">
+        <h1>Welcome To Sebok Das World!</h1>
+        <p>Frist Name:
+            <input type="text" placeholder="Enter your first name" name="name" id="first-name" required>
+            Last Name: <input type="text" placeholder="Enter your last name" name="name" id="first-name">
+        </p>
+        <p>Email:
+            <input type="email" placeholder="Enter your email" name="email" id="email" required>
+            Number: <input type="tel" min="11" max="11" placeholder="Phone number" name="number" id="number">
+        </p>
+        <p>Age:
+            <input type="number" min="18" max="110" placeholder="0" name="age" id="age" required>
+        </p>
+        <fieldset>
+            <legend>Select your heigher Education</legend>
+            <p>
+                <label for="ssc">
+                    <input type="radio" name="qualification" id="ssc">SSC
+                </label>
+            </p>
+            <p>
+                <label for="hsc">
+                    <input type="radio" name="qualification" id="hsc">HSC
+                </label>
+            </p>
+            <p>
+                <label for="graduate">
+                    <input type="radio" name="qualification" id="graduate">Graduate
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>What type of service do you want?</legend>
+            <p>
+                <label for="apk">
+                    <input type="checkbox" name="service" id="apk">Android Application
+                </label>
+            </p>
+            <p>
+                <label for="development">
+                    <input type="checkbox" name="service" id="development">Website
+                </label>
+            </p>
+            <p>
+                <label for="brute-force">
+                    <input type="checkbox" name="service" id="brute-force">Brute Force Attack
+                </label>
+            </p>
+            <p>
+                <label for="penetration">
+                    <input type="checkbox" name="service" id="penetration">Penetration Testing
+                </label>
+            </p>
+        </fieldset>
+        <P>
+            Comment:
+            <br>
+            <textarea name="instration" placeholder="write your special instructon" id="instruction" cols="50"
+                rows="8"></textarea>
+        </P>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
